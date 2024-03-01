@@ -1,0 +1,140 @@
+/* TableCategories.module.css */
+
+.containerToast {
+  border-radius: 4px;
+  top: 1rem;
+  right: 1rem;
+  height: 5rem;
+  width: max-content;
+}
+
+.flexContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.iconContainer {
+  display: inline-flex;
+  height: 2rem;
+  width: 2rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  background-color: #e53c5d;
+  color: #ffeef2;
+}
+
+/* Para dark mode, puedes agregar un modificador adicional si estás usando algún tipo de lógica de conmutación para el modo oscuro. 
+  Por ahora, lo dejaré aquí como referencia. */
+/* .iconContainer.dark {
+    background-color: #111827;
+    color: #D1FAE5;
+  } */
+
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.25rem;
+  width: 1.25rem;
+}
+
+.textContainer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.title {
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* .title.dark {
+    color: #F3F4F6;
+  } */
+
+.subtitle {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  font-weight: normal;
+  color: black;
+}
+
+.buttonGroup {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.buttonWrapper {
+  width: auto;
+}
+
+.buttonWrapper button {
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 5rem;
+  height: 2rem;
+}
+
+.confirmButton {
+  background: #e53c5d;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-weight: 550;
+  color: white;
+}
+
+.confirmButton:hover {
+  background: #d33756;
+}
+
+.cancelButton {
+  background: none;
+  border: 1px solid rgba(128, 128, 128, 0.333);
+  padding: 0.5rem;
+  color: black;
+  font-weight: 550;
+}
+
+.cancelButton:hover {
+  background: rgba(128, 128, 128, 0.233);
+}
+
+.toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  color: gray;
+  cursor: pointer;
+  padding: 0.2rem;
+  margin-left: 5px;
+}
+
+.toggle:hover {
+  background: rgba(128, 128, 128, 0.24);
+  border-radius: 2px;
+}
+
+@keyframes slideRight {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

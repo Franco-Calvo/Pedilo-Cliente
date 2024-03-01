@@ -1,0 +1,56 @@
+.priceView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #fffbfd;
+  flex-direction: column;
+}
+
+.priceView h2 {
+  color: #2e2e2e;
+  font-size: 2rem;
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 60%;
+}
+
+@media (max-width: 425px) {
+  .priceView {
+    justify-content: space-around;
+    padding: 0.2rem;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    gap: 1rem;
+    height: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .priceView {
+    justify-content: space-evenly;
+    padding: 0.2rem;
+    height: 100vh;
+    gap: 0;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+    height: 80%;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .cardContainer {
+    width: 90%;
+    gap: 3rem;
+  }
+}

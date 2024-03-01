@@ -1,0 +1,106 @@
+.noProducts {
+  color: black;
+}
+
+.tableContainer input::placeholder {
+  color: black;
+}
+
+.tableContainer {
+  width: 90%;
+  color: black;
+  background: #f9f9fc;
+  border-collapse: collapse;
+  color: #333843;
+  border-radius: 6px;
+  max-height: 40rem;
+  height: 100%;
+}
+
+.tableContainer th {
+  background: #f1f1f1;
+}
+
+.containerPrice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tableContainer th,
+.tableContainer td {
+  text-align: center;
+  vertical-align: initial !important;
+  padding: 8px 12px;
+  max-height: 2rem;
+  height: 2rem;
+}
+
+.tableContainer tr {
+  max-height: 2rem;
+  height: 2rem;
+}
+
+.tableContainer input[type="text"],
+.tableContainer select {
+  width: 100%; /* Asegura que los inputs y selects ocupen todo el espacio de su celda contenedora */
+  padding: 6px 8px; /* Espaciado interno para los inputs/selects */
+  border: 1px solid #ccc; /* Borde para los inputs/selects */
+  box-sizing: border-box; /* Para que el padding y el borde no aumenten el tamaño total del input/select */
+  background: none;
+  color: black;
+  border-radius: 4px;
+  outline: none;
+}
+
+.actionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  transform: scale(1.2);
+  transition: all ease 0.5s;
+}
+
+.containerAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  height: 1.5rem;
+}
+
+.tableContainer input[type="number"] {
+  width: 100%; /* Asegura que los inputs y selects ocupen todo el espacio de su celda contenedora */
+  box-sizing: border-box; /* Para que el padding y el borde no aumenten el tamaño total del input/select */
+  background: none;
+  color: black;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  margin-top: 1px;
+}
+
+.containerPrice span {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #ccc; /* Borde para los inputs/selects */
+  padding: 6px;
+  gap: 0.1rem;
+}
+
+.containerAction span {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 3rem;
+}

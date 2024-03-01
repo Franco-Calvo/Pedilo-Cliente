@@ -1,0 +1,143 @@
+.containerProfile {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  background: rgb(241, 241, 241);
+  background-image: url(../../Components/Presentation/Icons/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.categoryNameButton {
+  color: white;
+}
+
+.categoryList h1,
+.categoryList p {
+  color: #272d2f;
+  font-weight: 650;
+}
+
+.arrowToTop {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 1rem;
+  right: 1rem;
+  height: 2rem;
+  width: 2rem;
+  background: #e53c5d;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  z-index: 1000;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.419);
+}
+
+.cart {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 1rem;
+  right: 1rem;
+  height: 2rem;
+  width: 2rem;
+  background: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  z-index: 1000;
+  box-shadow: 2px 2px 5px #272d2f67;
+}
+
+.containerProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.bottomModal {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background: white;
+  min-height: 30%;
+  color: #272d2f;
+  width: 100%;
+  border-top-left-radius: 24px;
+  border-top-right-radius: 24px;
+  transform: translateY(100%);
+  transition: transform 0.7s ease;
+  padding: 1rem;
+  box-shadow: 2px 2px 8px #272d2f;
+}
+
+.bottomModal.visible {
+  transform: translateY(0);
+}
+
+.productCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.productCard img {
+  width: 50px;
+}
+
+.categoryList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.containerCategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+  min-height: 60%;
+}
+
+.containerCategories button {
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  width: 7rem;
+  border-radius: 50px;
+  font-weight: 500;
+  box-shadow: 2px 2px 5px #272d2f67;
+}
+
+.changeTable {
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 30px;
+}
+
+.hrCart {
+  width: 6rem;
+  border: 2px solid #272d2f;
+  border-radius: 12px;
+}

@@ -1,0 +1,111 @@
+.containerTables {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.containerTables section {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.tableContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #f1f1f1;
+  color: #333843;
+  width: 90%;
+  border-radius: 6px;
+}
+
+.tableContainer thead {
+  width: 90%;
+}
+
+.tableContainer thead tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem;
+}
+
+.tableContainer tbody {
+  background: #f9f9fc;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.tableContainer tbody tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.5rem;
+  width: 90%;
+}
+
+.containerLoader {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  width: 100%;
+}
+
+.containerLoader td {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerName {
+  width: 5rem;
+}
+
+.containerName input {
+  background: none;
+  border: 2px solid rgb(230, 230, 230);
+  border-radius: 4px;
+  font-weight: 550;
+  color: black;
+  padding: 0.2rem;
+  outline: none;
+  width: 8rem;
+}
+
+.tableContainer tbody tr td {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.actionButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  transform: scale(1.2);
+  transition: all ease 0.5s;
+}
+
+.containerAction {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+}

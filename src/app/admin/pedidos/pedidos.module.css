@@ -1,0 +1,128 @@
+.containerPedidos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.containerPedidos span {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: black;
+  font-weight: 550;
+  font-size: 1.4rem;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(248, 248, 248);
+  box-shadow: 2px 2px 15px #2727273d;
+  gap: 1rem;
+  border-radius: 12px;
+  padding: 1rem;
+  color: black;
+  width: 30%;
+}
+
+.order.expanded {
+  transition: all 3s ease-in-out;
+  margin-bottom: 2rem; /* o cualquier otro valor que desees */
+}
+
+.containerProducts {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  color: black;
+}
+
+.product {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  background: linear-gradient(1deg, #c03 0.93%, #e53c5d 99.07%);
+  color: white;
+  padding: 0.3rem;
+  border-radius: 4px;
+  min-width: 13rem;
+}
+
+.orderDetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  width: 95%;
+  font-weight: 550;
+}
+
+.paymentStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.3rem;
+  background: #bef3d2;
+  border-radius: 6px;
+  color: #3b8d5a;
+  font-weight: 550;
+  font-size: 0.8rem;
+}
+
+.orderStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e7ad18;
+  font-weight: 550;
+  background: #fff3d4;
+  padding: 0.3rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+
+.orderStatus:hover {
+  background: #ffecbb;
+  color: #e7ad18;
+}
+
+.orderAccept {
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: #e53c5d;
+  cursor: pointer;
+}
+
+.orderAccept:hover {
+  background: #c03;
+}
+
+.arrowDown svg {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease;
+}
+
+.arrowDown,
+.arrowUp {
+  background: none;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.arrowUp svg {
+  transform: rotate(180deg);
+  transition: transform 0.3s ease;
+}

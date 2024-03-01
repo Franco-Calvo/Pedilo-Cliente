@@ -1,0 +1,53 @@
+.cartCard {
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  list-style: none;
+  border-radius: 12px;
+  color: #ffffff;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  box-shadow: 2px 2px 5px #272d2f67;
+  z-index: 100;
+}
+
+.totalAmount {
+  color: #272d2f;
+  font-size: 1rem;
+  font-weight: 550;
+}
+
+.payCart {
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  outline: none;
+  border: none;
+  padding: 0.7rem;
+  width: 40%;
+  border-radius: 52px;
+  box-shadow: 2px 2px 5px #272d2f67;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.addToCart {
+  border: none;
+  outline: none;
+  background: #e53c5d;
+  padding: 0.4rem;
+  border-radius: 500px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerButtons {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}

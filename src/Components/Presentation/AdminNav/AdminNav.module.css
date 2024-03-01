@@ -1,0 +1,26 @@
+.containerAdmin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  width: 100%;
+  height: 5vh;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.containerAdmin div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.containerAdmin a {
+  font-weight: 550;
+}
+
+.containerAdmin a:hover {
+  color: #220e13;
+  transition: ease-in 400ms;
+}

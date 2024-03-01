@@ -1,0 +1,34 @@
+.containerCreate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  color: black;
+}
+
+.containerCreate input {
+  background: none;
+  border: 1px solid gray;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.3rem;
+  color: black;
+  font-weight: 500;
+}
+
+.actionButton {
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  transition: all ease 0.5s;
+  text-shadow: 1px 1px 5px white;
+  background: linear-gradient(90deg, #e53c5d 100%, #c03 0%);
+}

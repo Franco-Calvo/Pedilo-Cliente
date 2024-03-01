@@ -1,0 +1,64 @@
+.containerProducts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  min-height: 95vh;
+  background: #f0f0f0;
+  padding: 1rem;
+}
+
+.containerView {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  min-height: 40rem;
+  width: 95%;
+  border-radius: 12px;
+  padding: 1rem;
+  gap: 2rem;
+  flex-direction: column;
+}
+
+.containerLinks {
+  color: black;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  background: linear-gradient(90deg, #e53c5d 0%, #c03 100%);
+  border-radius: 4px;
+}
+
+.containerLinks span {
+  cursor: pointer;
+  font-weight: 500;
+  color: white;
+}
+
+.containerLinks hr {
+  height: 1rem;
+  border: 1px solid #fff;
+}
+
+.containerLinks span:hover {
+  text-shadow: 1px 1px 6px #f0f0f0;
+}
+
+.containerCategories {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+
+.activeTab {
+  text-decoration: underline;
+  font-weight: bold;
+  text-shadow: 1px 1px 15px #f0f0f0;
+}
